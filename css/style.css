@@ -1,0 +1,306 @@
+body {
+  font-family: Myriad Pro;
+  font-size: 18px;
+  color: #000000;
+}
+
+.container-fluid {
+  max-width: 1280px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.wrapper {
+  background-color: #ebeff2;
+  background-image: url(../images/bg-photo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 650px;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title__text {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.title__text__highlighted {
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(../images/bg-british-flag.png);
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+  min-height: 500px;
+}
+
+.banner__header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 50px 0 0;
+  line-height: 1;
+}
+
+.banner__text {
+  font-size: 2rem;
+  margin: 35px 0 0;
+  line-height: 1.1;
+}
+
+.banner__try-it-button {
+  color: #ffffff;
+  background-color: #ff963d;
+  border: none;
+  margin: 60px 0 0;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.banner__try-it-button:hover {
+  background-color: #ffbd6a;
+}
+
+.intro__button {
+  text-align: center;
+}
+
+.intro__learn-more-button {
+  color: #ff963d;
+  background-color: transparent;
+  border: 1px solid #ff963d;
+  margin-top: 20px;
+  padding: 5px 30px 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fa.fa-angle-down {
+  font-size: 24px;
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+.intro__learn-more-button:hover {
+ border-color: #ffbd6a;
+ color: #ffbd6a;
+}
+
+.intro__item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.first-content-block__header,
+.second-content-block__header {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.first-content-block__image-wrapper {
+  text-align: center;
+}
+
+.first-content-block__image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.first-content-block__second-header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.first-content-block__section {
+  position: relative;
+  padding-left: 77px;
+  vertical-align: top;
+}
+
+.first-content-block__icon {
+  position: absolute;
+  left: 0;
+}
+
+.first-content-block__text {
+  margin: 20px 0;
+}
+
+.second-content-block__wrapper {
+  font-size: 20px;
+}
+
+.second-content-block__second-header {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.second-content-block__icon {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.second-content-block__section-header {
+  font-weight: bold;
+  margin: 0;
+}
+
+
+@media (min-width: 500px) {
+  .banner__header {
+    font-size: 60px;
+  }
+
+  .banner__text {
+    font-size: 36px;
+  }
+
+  .banner__try-it-button {
+    padding: 10px 40px;
+  }
+
+  .intro__item {
+    width: 32.5%;
+  }
+
+  .first-content-block__header,
+  .second-content-block__header {
+    font-size: 60px;
+  }
+
+  .second-content-block__second-header {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 576px) {
+  .first-content-block__section {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background-image: url(../images/bg-british-flag.png), url(../images/bg-good-morning.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, 98% 40px;
+    background-size: auto 500px, auto;
+  }
+
+  .first-content-block__section {
+    display: block;
+    width: 100%;
+  }
+
+  .second-content-block__icon {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro__button {
+    text-align: left;
+  }
+
+  .intro__learn-more-button {
+    margin-top: 35px;
+  }
+
+  .intro-items-wrapper {
+    position: relative;
+    float: right;
+  }
+
+  .intro__item {
+    margin-top: 0;
+    padding: 15px 15px 15px 90px;
+    position: relative;
+    text-align: left;
+    max-width: 270px;
+  }
+
+  .intro__icon {
+    position: absolute;
+    left: 0;
+  }
+
+  .intro__text {
+    margin: 20px 0;
+  }
+
+  .first-content-block__header,
+  .second-content-block__header,
+  .first-content-block__second-header,
+  .first-content-block__image-wrapper {
+    text-align: left;
+  }
+
+  .first-content-block__header {
+    max-width: 540px;
+  }
+
+  .second-content-block {
+    margin-top: 75px;
+  }
+
+  .second-content-block__wrapper.wrapper-1 {
+    max-width: 325px;
+  }
+
+  .second-content-block__wrapper.wrapper-2 {
+    max-width: 350px;
+  }
+
+  .second-content-block__wrapper.wrapper-3 {
+    max-width: 360px;
+  }
+
+  .second-content-block__icon {
+    width: auto;
+  }
+}
+
+@media (min-width: 1140px) {
+  .title,
+  .banner,
+  .intro {
+    padding-left: 20px;
+  }
+
+  .intro-items-wrapper {
+    margin-right: -40px;
+  }
+
+  .intro,
+  .content-block .row {
+    padding-right: 40px;
+  }
+
+  .first-content-block__section {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .second-content-block__icon {
+    margin: 0 auto;
+  }
+}
